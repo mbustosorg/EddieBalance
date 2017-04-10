@@ -88,6 +88,7 @@ int print(const char *format, ...)
 		printf("%s", buffer);
 		break;
 	case UDP:
+		printf("%s", buffer);
 		UDPBindSend(buffer, len);
 		break;
 	}
